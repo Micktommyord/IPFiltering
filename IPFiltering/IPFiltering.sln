@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPFiltering", "IPFiltering.csproj", "{C7301179-B19E-4AC7-B329-171D21B066F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPFiltering", "IPFiltering.csproj", "{C7301179-B19E-4AC7-B329-171D21B066F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPFiltering.Library", "..\IPFiltering.Library\IPFiltering.Library.csproj", "{4CF1BFF5-B8FA-4B9D-9AAF-023593EE455C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPFiltering.Library", "..\IPFiltering.Library\IPFiltering.Library.csproj", "{4CF1BFF5-B8FA-4B9D-9AAF-023593EE455C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPFiltering.Library.Tests", "..\IPFiltering.Library.Tests\IPFiltering.Library.Tests.csproj", "{3CABF506-9F58-48E4-8006-EC88AC55E246}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IPFiltering.Library.Tests", "..\IPFiltering.Library.Tests\IPFiltering.Library.Tests.csproj", "{3CABF506-9F58-48E4-8006-EC88AC55E246}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IPNumbers", "..\..\..\..\Documents\Mikes Tech Tests\ipnumbers_src\ipnumbers\IPNumbers.csproj", "{6F4A129C-D8FC-447D-809F-FF748CCAAC0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ipnumberstest", "..\..\..\..\Documents\Mikes Tech Tests\ipnumbers_src\ipnumberstest\ipnumberstest.csproj", "{5A70A5FC-DF83-4BC4-9333-D20A822DD251}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{3CABF506-9F58-48E4-8006-EC88AC55E246}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CABF506-9F58-48E4-8006-EC88AC55E246}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CABF506-9F58-48E4-8006-EC88AC55E246}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4A129C-D8FC-447D-809F-FF748CCAAC0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4A129C-D8FC-447D-809F-FF748CCAAC0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4A129C-D8FC-447D-809F-FF748CCAAC0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4A129C-D8FC-447D-809F-FF748CCAAC0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A70A5FC-DF83-4BC4-9333-D20A822DD251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A70A5FC-DF83-4BC4-9333-D20A822DD251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A70A5FC-DF83-4BC4-9333-D20A822DD251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A70A5FC-DF83-4BC4-9333-D20A822DD251}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

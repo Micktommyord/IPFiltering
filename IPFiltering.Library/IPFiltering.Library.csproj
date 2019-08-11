@@ -8,4 +8,8 @@
     <PackageReference Include="IPNetwork2" Version="2.4.0.126" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Documents\Mikes Tech Tests\ipnumbers_src\ipnumbers\IPNumbers.csproj" />
+  </ItemGroup>
+
 </Project>
